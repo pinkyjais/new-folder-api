@@ -1,0 +1,54 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+
+namespace adminlte.ApiClasses
+{
+    public class Section
+    {
+        //public int id { get; set; }
+        //public string name { get; set; }
+        //public string type { get; set; }
+        public int SiteId { get; set; }
+        public string Description { get; set; }
+        //public string data { get; set; }
+        //public int created_by { get; set; }
+        //public DateTime created_date { get; set; }
+        //public int updated_by { get; set; }
+        //public DateTime updated_date { get; set; }
+        //public bool is_active { get; set; }
+        //public bool is_delete { get; set; }
+        //public string site_name { get; set; }
+        public int SectionId { get; set; }
+        public string SectionName { get; set; }
+        //public string languagecode { get; set; }
+        public string OrderNo { get; set; }
+        //    //Turkish
+        //    public string TKSectionName { get; set; }
+        //    public string TKSectionType { get; set; }
+        //    public int TKSiteId { get; set; }
+        //    public string TKDescription { get; set; }
+        //    public int TurkishLanguageId { get; set; }
+        //    public int EnglishLanguageId { get; set; }
+        //    public string LanguageName { get; set; }
+        //    public int LanguageId { get; set; }
+        public int Status { get; set; }
+        //    public string block_id { get; set; }
+        //    public string order { get; set; }
+        //    public string templateused { get; set; }
+        //    public string statusname { get; set; }
+
+           public List<Block> Sectionblocks { get; set; }
+        }
+
+
+        //public class blocksection
+        //{
+        //    public string block_id { get; set; }
+        //    public string order { get; set; }
+        //    public string status { get; set; }
+
+        //}
+    //}
+}
